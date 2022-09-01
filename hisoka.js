@@ -1026,8 +1026,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 │.hidetag [text]
 │.everyone [text]
 │.totag [reply]
-│.antilink [on/off]
-│.mute [on/off]
+│.antilink [Anti Link Grup Lain]
 │.vote [text]
 │.devote
 │.upvote
@@ -1063,10 +1062,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 ┌──• *Main Menu*
 │
 │.ping
-│.owner
 │.menu / help / ?
-│.quoted
 │.listonline
+│.react
 │
 └───────•
 
@@ -1093,8 +1091,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 │.tupai
 │
 └───────•
-
-_No NSFW Content <3_
+Owner : Ferry Isnawan (SkyBee)
+Instagram : ferry_isnawan45
 `
                 let btn = [ {
                                 quickReplyButton: {
