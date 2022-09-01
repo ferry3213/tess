@@ -1032,7 +1032,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 │.upvote
 │.cekvote
 │.hapusvote
-│.react(REPLAY TEXT BESERTA EMOT)
+│
 └───────•
 
 ┌──• *Youtube  Menu*
