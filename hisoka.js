@@ -1046,8 +1046,6 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 
 ┌──• *Convert Menu*
 │
-│.attp [text]
-│.ttp [text] 
 │.toimage
 │.togif
 │.tomp4
@@ -1056,15 +1054,6 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 │.sticker
 │.stickerwm
 │.emojimix
-│
-└───────•
-
-┌──• *Main Menu*
-│
-│.ping
-│.menu / help / ?
-│.listonline
-│
 │
 └───────•
 
