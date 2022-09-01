@@ -161,7 +161,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
         switch(command) {
 	    
             case 'react': {
-                if (!isCreator) throw mess.owner
+                if (!m.isGroup) throw mess.group
                 reactionMessage = {
                     react: {
                         text: args[0],
@@ -1032,7 +1032,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 │.upvote
 │.cekvote
 │.hapusvote
-│
+│.react(REPLAY TEXT BESERTA EMOT)
 └───────•
 
 ┌──• *Youtube  Menu*
@@ -1064,7 +1064,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 │.ping
 │.menu / help / ?
 │.listonline
-│.react
+│
 │
 └───────•
 
