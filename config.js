@@ -18,7 +18,7 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6289501303263']
+global.owner = ['6283181831348']
 global.premium = ['6289501303263','6285725860917','62895342991259','6282327316783']
 global.packname = 'SkyBee'
 global.author = 'THE SKY'
