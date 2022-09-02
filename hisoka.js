@@ -1054,7 +1054,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 │.sticker
 │.stickerwm
 │.emojimix
-│
+│.ping
 └───────•
 
 ┌──• *Islamic Menu*
@@ -1083,10 +1083,11 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 Owner : Ferry Isnawan (SkyBee)
 Instagram : ferry_isnawan45
 `
-                let btn = [ {
-                                quickReplyButton: {
-                                    displayText: 'Status Bot',
-                                    id: 'ping'
+                let btn = [{
+                                urlButton: {
+                                    displayText: 'DONASI',
+                                    url: 'https://saweria.co/skybeebot'
+                                
                                 }
                             }]
                             let setbot = db.data.settings[botNumber]
