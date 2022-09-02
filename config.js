@@ -29,7 +29,7 @@ global.mess = {
     success: '✓ Success',
     admin: 'Fitur Khusus Admin Group!',
     botAdmin: 'Saya tidak bisa melakukan itu, karena saya bukan admin',
-    owner: 'prefix > ini khusus owner bang',
+    owner: 'fitur ini khusus owner bang',
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
